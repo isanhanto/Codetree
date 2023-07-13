@@ -28,6 +28,7 @@ public class Graph
     {
         final int n = order();
         int[][] adjList = new int[n][];
+        
 
         ArrayList<Integer> adj = new ArrayList<>();//vと隣接する頂点集合
         for (int v = 0; v < n; ++v) {
